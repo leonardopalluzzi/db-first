@@ -9,7 +9,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - name: VARCHAR(255) - NOTNULL
 - model: VARCHAR(255) - NOTNULL
 - price: DECIMAL(4, 2) - NULL
-- cover: VARCHAR(255) - NULL
+- cover: VARCHAR(255) - DEFAULT(VARCHAR(placeholder.png))
 - production_year: DATE - NULL
 - registration_year: DATE - NOTNULL
 - color: VARCHAR(255) - NULL
@@ -18,7 +18,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - gear_type: VARCHAR(10) - NOTNULL
 - gear_number: TINYINT - NOTNULL
 - empty-weight: SMALLINT - NOTNULL
-- emssion_class: VARCHAR(50) - NOTNULL
+- emission_class: VARCHAR(50) - NOTNULL
 - fuel_type: CHAR(10) - NOTNULL
 - consumption: VARCHAR(10) - NULL
 - horse_power: TINYINT - NULL
@@ -32,4 +32,4 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - traction: VARCHAR(10) - NULL
 - seats: TINYINT - NULL
 - doors: TINYINT - NULL
-- warranty: TINYINT(0 o 1) - DEFAULT(0)
+- warranty: TINYINT(0 o 1) - DEFAULT(1)
