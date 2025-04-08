@@ -21,7 +21,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - emission_class: VARCHAR(50) - NOTNULL
 - fuel_type: CHAR(10) - NOTNULL
 - consumption: VARCHAR(10) - NULL
-- horse_power: TINYINT - NULL
+- horse_power: SMALLINT - NULL
 - kw: TINYINT - NULL
 - displacement: SMALLINT - NULL
 - cilinders: TINYINT - NULL
