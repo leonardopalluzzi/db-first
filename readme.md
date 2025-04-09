@@ -6,9 +6,10 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 
 ## table columns:
 - id: INT / BIGINT - PRIMARY KEY - UNIQUE - AUTO_INCREMENT
+- visibility: TINYINT(0 o 1) - DEFAULT(0)
 - name: VARCHAR(255) - NOTNULL
 - model: VARCHAR(255) - NOTNULL
-- price: DECIMAL(4, 2) - NULL
+- price: DECIMAL(7) - NULL
 - cover: VARCHAR(255) - DEFAULT(VARCHAR(placeholder.png))
 - production_year: DATE - NULL
 - registration_year: DATE - NOTNULL
